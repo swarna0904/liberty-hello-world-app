@@ -2,7 +2,7 @@
 
 ## Simple Hello World app to demo  WebSphere Liberty in Docker
 
-This small Java EE app supports the lab [HTTP Session Replication Lab for the App Modernization Dojo](https://github.com/IBMAppModernization/app-modernization-session-replication-openshift) on OpenShift.
+This small Java EE app supports the lab [Build and run a WebSphere Liberty app with Docker](https://github.com/IBMAppModernization/app-modernization-liberty-on-docker).
 
 
 ### Building the app
@@ -20,4 +20,4 @@ This will create the app's *.war* file in the **target** subfolder.
 
 ### Running the app
 
-Refer to the [lab instructions](https://github.com/IBMAppModernization/app-modernization-session-replication-openshift) in the accompanying lab exercise to run the app on Docker.
+Refer to the [lab instructions](https://github.com/IBMAppModernization/app-modernization-liberty-on-docker) in the accompanying lab exercise to run the app on Docker.
