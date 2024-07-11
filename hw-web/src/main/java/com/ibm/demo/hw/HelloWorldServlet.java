@@ -19,19 +19,20 @@ public class HelloWorldServlet extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {
 
-
-      PrintWriter out = response.getWriter();
-
-      response.setContentType("text/plain");
-
-      out.println("Hello World\n");
-      // Sample Logs.
+	  // Sample Logs.
       logger.trace("1.This is a TRACE message.");
       logger.debug("2.This is a DEBUG message.");
       logger.info("3.This is an INFO message.");
       logger.warn("4.This is a WARN message.");
       logger.error("5.This is an ERROR message.");
 
+
+      PrintWriter out = response.getWriter();
+
+      response.setContentType("text/plain");
+
+      out.println("Hello World\n");
+     
 
   }
 
