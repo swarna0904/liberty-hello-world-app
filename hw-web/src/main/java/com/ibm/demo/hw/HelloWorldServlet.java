@@ -10,7 +10,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-@WebServlet("/helloLogs")
+@WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
 
 	private static final Logger logger = LogManager.getLogger(HelloWorldServlet.class);
