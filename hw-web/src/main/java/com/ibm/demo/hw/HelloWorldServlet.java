@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
 
-	private static final Logger logger = LogManager.getLogger(MyAppLogger.class);
+	private static final Logger logger = LogManager.getLogger(HelloWorldServlet.class);
 	 
 
   public void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -31,7 +31,7 @@ public class HelloWorldServlet extends HttpServlet {
 
       response.setContentType("text/plain");
 
-      out.println("Hello World\n");
+      out.println("Hello World With logs\n");
      
 
   }
